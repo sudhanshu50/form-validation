@@ -1,0 +1,82 @@
+.img{
+    height:200px;
+    width:200px;
+    border:2px solid black;    
+  
+  }
+  
+  .fbtn{
+    margin:10px;
+    height:30px;
+    background-color:#095cc8;
+    color:White;
+    font-size:23px;
+    font-weight:500;
+    border-radius:10px;
+  }
+
+  .fbtn:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor:pointer;
+  }
+  
+  .popupBox{
+    display: flex;
+    flex-direction: column;
+    width:fit-content;
+    height:fit-content;
+    position: absolute;
+    background-color: #e2e3b0;
+    padding: 10px;
+    text-align:left; 
+    top:13rem;
+  }
+  
+  .popupBox label{
+    display:block;
+    font-size:20px
+  }
+  
+  .error{
+    color:red;
+  }
+  
+  .popupBox h2{
+    margin-top: 0;
+    color: brown;
+  }
+  
+  button{
+  background-color:#095cc8;
+  color: white;
+  width:fit-content;
+  cursor: pointer;
+  }
+  
+  .rating{
+    margin:5px 0;
+  }
+  
+  .name{
+    margin:5px 0;
+  }
+  
+  .comment{
+    margin:5px 0;
+  }
+  
+  .close{
+    font-size: 15px;
+    font-weight: 200;
+    display: inline-block;
+    transform: rotate(45deg);
+    margin-bottom: 5px;
+  }
+  
+  .backImg{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
